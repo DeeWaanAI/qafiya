@@ -1,0 +1,11 @@
+{
+  "scenario": "deck about 'travel' across 8 documents (prose + text-PDF)",
+  "n_docs": 8,
+  "n_blocks_total": 156,
+  "n_blocks_selected": 64,
+  "T_baseline_all_docs": 28838,
+  "T_qafiya_selected_blocks": 11818,
+  "ratio": 0.4098,
+  "saving": "59.0%",
+  "note": "documents select at block granularity; saving grows with corpus size and topic selectivity"
+}

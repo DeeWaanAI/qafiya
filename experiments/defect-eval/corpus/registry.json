@@ -1,0 +1,17 @@
+[
+  {
+    "analysis_id": "a_seasonality",
+    "dataset": "dept_0",
+    "status": "confirmed"
+  },
+  {
+    "analysis_id": "a_anomaly",
+    "dataset": "dept_1",
+    "status": "exploratory"
+  },
+  {
+    "analysis_id": "a_forecast",
+    "dataset": "dept_2",
+    "status": "failed_gate"
+  }
+]

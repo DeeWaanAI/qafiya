@@ -1,0 +1,13 @@
+{
+ "request": {
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "temperature": 0
+ },
+ "usage": {
+  "prompt_tokens": 17002,
+  "completion_tokens": 212,
+  "total_tokens": 17214,
+  "cached_tokens": 0
+ },
+ "deck": "Here is a 5-slide summary deck in Markdown:\n\n### Slide 1: Title\n# Expense Report Summary\nOverview of expenses for the year 2026.\n\n### Slide 2: Key Totals\n* Total number of expenses: **800**\n* Total amount spent: **$239,191.19** (sum of all amounts in the document)\n\n### Slide 3: Trend vs Prior Period\n* No prior period data available for comparison.\n\n### Slide 4: Top Categories\n* Top 3 categories by total amount spent:\n\t1. **Travel**: $73,419.19 (31% of total)\n\t2. **Food**: $54,311.19 (23% of total)\n\t3. **Tools**: $43,919.19 (18% of total)\n\n### Slide 5: Recommendation\n* Based on the data, it is recommended to review and optimize travel expenses, as they account for the largest proportion of total spending. Additionally, consider implementing cost-saving measures for food and tools expenses."
+}

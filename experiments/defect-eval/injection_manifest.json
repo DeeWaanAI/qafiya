@@ -1,0 +1,496 @@
+{
+  "frozen": "2026-10-15",
+  "seed": 20261015,
+  "n_clean": 24,
+  "n_defective": 68,
+  "expected_uncatchable": [
+    "X1",
+    "X2"
+  ],
+  "injections": [
+    {
+      "binding": "N1_dept_0",
+      "class": "N1",
+      "note": "value cannot be recomputed from sources",
+      "correct": 1942.21,
+      "injected": 2660.83
+    },
+    {
+      "binding": "N2_dept_0",
+      "class": "N2",
+      "note": "correct-looking value from a retired artifact",
+      "correct": "datasets/dept_0/data.jsonl",
+      "injected": "datasets/dept_0/archive/data_v1.jsonl"
+    },
+    {
+      "binding": "N3_dept_0",
+      "class": "N3",
+      "note": "wrong denominator: pooled total presented as subgroup",
+      "correct": 1174.13,
+      "injected": 4805.64
+    },
+    {
+      "binding": "S1_dept_0",
+      "class": "S1",
+      "note": "prose points the way data don't",
+      "correct": -0.2346,
+      "injected": 0.2346
+    },
+    {
+      "binding": "S2_dept_0",
+      "class": "S2",
+      "note": "right number, wrong thing (label/category mismatch)",
+      "correct": "category=travel",
+      "injected": "category=food"
+    },
+    {
+      "binding": "S4_dept_0",
+      "class": "S4",
+      "note": "cites an analysis that was never run/deposited",
+      "correct": "artifact must exist",
+      "injected": "datasets/dept_0/analysis/seasonality.json"
+    },
+    {
+      "binding": "S5_dept_0",
+      "class": "S5",
+      "note": "exploratory/failed-gate result stated with confident voice",
+      "correct": "status=confirmed required",
+      "injected": "a_anomaly"
+    },
+    {
+      "binding": "I1_dept_0",
+      "class": "I1",
+      "note": "no bound source exists",
+      "correct": "non-empty sources",
+      "injected": "[]"
+    },
+    {
+      "binding": "I2_dept_0",
+      "class": "I2",
+      "note": "inputs/configs absent \u2014 cannot regenerate",
+      "correct": "config present",
+      "injected": "datasets/dept_0/config/forecast.yaml"
+    },
+    {
+      "binding": "X1_dept_0",
+      "class": "X1",
+      "note": "claim and data share the same upstream error \u2014 coherence intact",
+      "correct": "unknowable from inside",
+      "injected": "unknowable from inside"
+    },
+    {
+      "binding": "X2_dept_0",
+      "class": "X2",
+      "note": "drift hidden below tolerance (rounding)",
+      "correct": "exact value",
+      "injected": 1174.1301
+    },
+    {
+      "binding": "N1_dept_1",
+      "class": "N1",
+      "note": "value cannot be recomputed from sources",
+      "correct": 1781.2,
+      "injected": 2440.24
+    },
+    {
+      "binding": "N2_dept_1",
+      "class": "N2",
+      "note": "correct-looking value from a retired artifact",
+      "correct": "datasets/dept_1/data.jsonl",
+      "injected": "datasets/dept_1/archive/data_v1.jsonl"
+    },
+    {
+      "binding": "N3_dept_1",
+      "class": "N3",
+      "note": "wrong denominator: pooled total presented as subgroup",
+      "correct": 1153.6,
+      "injected": 4886.44
+    },
+    {
+      "binding": "S1_dept_1",
+      "class": "S1",
+      "note": "prose points the way data don't",
+      "correct": -0.1761,
+      "injected": 0.1761
+    },
+    {
+      "binding": "S2_dept_1",
+      "class": "S2",
+      "note": "right number, wrong thing (label/category mismatch)",
+      "correct": "category=travel",
+      "injected": "category=food"
+    },
+    {
+      "binding": "S4_dept_1",
+      "class": "S4",
+      "note": "cites an analysis that was never run/deposited",
+      "correct": "artifact must exist",
+      "injected": "datasets/dept_1/analysis/seasonality.json"
+    },
+    {
+      "binding": "S5_dept_1",
+      "class": "S5",
+      "note": "exploratory/failed-gate result stated with confident voice",
+      "correct": "status=confirmed required",
+      "injected": "a_forecast"
+    },
+    {
+      "binding": "I1_dept_1",
+      "class": "I1",
+      "note": "no bound source exists",
+      "correct": "non-empty sources",
+      "injected": "[]"
+    },
+    {
+      "binding": "I2_dept_1",
+      "class": "I2",
+      "note": "inputs/configs absent \u2014 cannot regenerate",
+      "correct": "config present",
+      "injected": "datasets/dept_1/config/forecast.yaml"
+    },
+    {
+      "binding": "X1_dept_1",
+      "class": "X1",
+      "note": "claim and data share the same upstream error \u2014 coherence intact",
+      "correct": "unknowable from inside",
+      "injected": "unknowable from inside"
+    },
+    {
+      "binding": "X2_dept_1",
+      "class": "X2",
+      "note": "drift hidden below tolerance (rounding)",
+      "correct": "exact value",
+      "injected": 1153.6001
+    },
+    {
+      "binding": "N1_dept_2",
+      "class": "N1",
+      "note": "value cannot be recomputed from sources",
+      "correct": 2724.44,
+      "injected": 3732.48
+    },
+    {
+      "binding": "N2_dept_2",
+      "class": "N2",
+      "note": "correct-looking value from a retired artifact",
+      "correct": "datasets/dept_2/data.jsonl",
+      "injected": "datasets/dept_2/archive/data_v1.jsonl"
+    },
+    {
+      "binding": "N3_dept_2",
+      "class": "N3",
+      "note": "wrong denominator: pooled total presented as subgroup",
+      "correct": 2761.77,
+      "injected": 6174.73
+    },
+    {
+      "binding": "S1_dept_2",
+      "class": "S1",
+      "note": "prose points the way data don't",
+      "correct": -0.1105,
+      "injected": 0.1105
+    },
+    {
+      "binding": "S2_dept_2",
+      "class": "S2",
+      "note": "right number, wrong thing (label/category mismatch)",
+      "correct": "category=travel",
+      "injected": "category=food"
+    },
+    {
+      "binding": "S4_dept_2",
+      "class": "S4",
+      "note": "cites an analysis that was never run/deposited",
+      "correct": "artifact must exist",
+      "injected": "datasets/dept_2/analysis/seasonality.json"
+    },
+    {
+      "binding": "S5_dept_2",
+      "class": "S5",
+      "note": "exploratory/failed-gate result stated with confident voice",
+      "correct": "status=confirmed required",
+      "injected": "a_anomaly"
+    },
+    {
+      "binding": "I1_dept_2",
+      "class": "I1",
+      "note": "no bound source exists",
+      "correct": "non-empty sources",
+      "injected": "[]"
+    },
+    {
+      "binding": "I2_dept_2",
+      "class": "I2",
+      "note": "inputs/configs absent \u2014 cannot regenerate",
+      "correct": "config present",
+      "injected": "datasets/dept_2/config/forecast.yaml"
+    },
+    {
+      "binding": "X1_dept_2",
+      "class": "X1",
+      "note": "claim and data share the same upstream error \u2014 coherence intact",
+      "correct": "unknowable from inside",
+      "injected": "unknowable from inside"
+    },
+    {
+      "binding": "X2_dept_2",
+      "class": "X2",
+      "note": "drift hidden below tolerance (rounding)",
+      "correct": "exact value",
+      "injected": 2761.7701
+    },
+    {
+      "binding": "N1_dept_3",
+      "class": "N1",
+      "note": "value cannot be recomputed from sources",
+      "correct": 3016.94,
+      "injected": 4133.21
+    },
+    {
+      "binding": "N2_dept_3",
+      "class": "N2",
+      "note": "correct-looking value from a retired artifact",
+      "correct": "datasets/dept_3/data.jsonl",
+      "injected": "datasets/dept_3/archive/data_v1.jsonl"
+    },
+    {
+      "binding": "N3_dept_3",
+      "class": "N3",
+      "note": "wrong denominator: pooled total presented as subgroup",
+      "correct": 1522.3,
+      "injected": 6673.6
+    },
+    {
+      "binding": "S1_dept_3",
+      "class": "S1",
+      "note": "prose points the way data don't",
+      "correct": -0.4905,
+      "injected": 0.4905
+    },
+    {
+      "binding": "S2_dept_3",
+      "class": "S2",
+      "note": "right number, wrong thing (label/category mismatch)",
+      "correct": "category=travel",
+      "injected": "category=food"
+    },
+    {
+      "binding": "S4_dept_3",
+      "class": "S4",
+      "note": "cites an analysis that was never run/deposited",
+      "correct": "artifact must exist",
+      "injected": "datasets/dept_3/analysis/seasonality.json"
+    },
+    {
+      "binding": "S5_dept_3",
+      "class": "S5",
+      "note": "exploratory/failed-gate result stated with confident voice",
+      "correct": "status=confirmed required",
+      "injected": "a_forecast"
+    },
+    {
+      "binding": "I1_dept_3",
+      "class": "I1",
+      "note": "no bound source exists",
+      "correct": "non-empty sources",
+      "injected": "[]"
+    },
+    {
+      "binding": "I2_dept_3",
+      "class": "I2",
+      "note": "inputs/configs absent \u2014 cannot regenerate",
+      "correct": "config present",
+      "injected": "datasets/dept_3/config/forecast.yaml"
+    },
+    {
+      "binding": "X1_dept_3",
+      "class": "X1",
+      "note": "claim and data share the same upstream error \u2014 coherence intact",
+      "correct": "unknowable from inside",
+      "injected": "unknowable from inside"
+    },
+    {
+      "binding": "X2_dept_3",
+      "class": "X2",
+      "note": "drift hidden below tolerance (rounding)",
+      "correct": "exact value",
+      "injected": 1522.3001
+    },
+    {
+      "binding": "N1_dept_4",
+      "class": "N1",
+      "note": "value cannot be recomputed from sources",
+      "correct": 2003.56,
+      "injected": 2744.88
+    },
+    {
+      "binding": "N2_dept_4",
+      "class": "N2",
+      "note": "correct-looking value from a retired artifact",
+      "correct": "datasets/dept_4/data.jsonl",
+      "injected": "datasets/dept_4/archive/data_v1.jsonl"
+    },
+    {
+      "binding": "N3_dept_4",
+      "class": "N3",
+      "note": "wrong denominator: pooled total presented as subgroup",
+      "correct": 974.46,
+      "injected": 3890.44
+    },
+    {
+      "binding": "S1_dept_4",
+      "class": "S1",
+      "note": "prose points the way data don't",
+      "correct": -0.681,
+      "injected": 0.681
+    },
+    {
+      "binding": "S2_dept_4",
+      "class": "S2",
+      "note": "right number, wrong thing (label/category mismatch)",
+      "correct": "category=travel",
+      "injected": "category=food"
+    },
+    {
+      "binding": "S4_dept_4",
+      "class": "S4",
+      "note": "cites an analysis that was never run/deposited",
+      "correct": "artifact must exist",
+      "injected": "datasets/dept_4/analysis/seasonality.json"
+    },
+    {
+      "binding": "S5_dept_4",
+      "class": "S5",
+      "note": "exploratory/failed-gate result stated with confident voice",
+      "correct": "status=confirmed required",
+      "injected": "a_anomaly"
+    },
+    {
+      "binding": "I1_dept_4",
+      "class": "I1",
+      "note": "no bound source exists",
+      "correct": "non-empty sources",
+      "injected": "[]"
+    },
+    {
+      "binding": "I2_dept_4",
+      "class": "I2",
+      "note": "inputs/configs absent \u2014 cannot regenerate",
+      "correct": "config present",
+      "injected": "datasets/dept_4/config/forecast.yaml"
+    },
+    {
+      "binding": "X1_dept_4",
+      "class": "X1",
+      "note": "claim and data share the same upstream error \u2014 coherence intact",
+      "correct": "unknowable from inside",
+      "injected": "unknowable from inside"
+    },
+    {
+      "binding": "X2_dept_4",
+      "class": "X2",
+      "note": "drift hidden below tolerance (rounding)",
+      "correct": "exact value",
+      "injected": 974.4601
+    },
+    {
+      "binding": "N1_dept_5",
+      "class": "N1",
+      "note": "value cannot be recomputed from sources",
+      "correct": 3203.59,
+      "injected": 4388.92
+    },
+    {
+      "binding": "N2_dept_5",
+      "class": "N2",
+      "note": "correct-looking value from a retired artifact",
+      "correct": "datasets/dept_5/data.jsonl",
+      "injected": "datasets/dept_5/archive/data_v1.jsonl"
+    },
+    {
+      "binding": "N3_dept_5",
+      "class": "N3",
+      "note": "wrong denominator: pooled total presented as subgroup",
+      "correct": 1130.81,
+      "injected": 4987.45
+    },
+    {
+      "binding": "S1_dept_5",
+      "class": "S1",
+      "note": "prose points the way data don't",
+      "correct": 1.3499,
+      "injected": -1.3499
+    },
+    {
+      "binding": "S2_dept_5",
+      "class": "S2",
+      "note": "right number, wrong thing (label/category mismatch)",
+      "correct": "category=travel",
+      "injected": "category=food"
+    },
+    {
+      "binding": "S4_dept_5",
+      "class": "S4",
+      "note": "cites an analysis that was never run/deposited",
+      "correct": "artifact must exist",
+      "injected": "datasets/dept_5/analysis/seasonality.json"
+    },
+    {
+      "binding": "S5_dept_5",
+      "class": "S5",
+      "note": "exploratory/failed-gate result stated with confident voice",
+      "correct": "status=confirmed required",
+      "injected": "a_forecast"
+    },
+    {
+      "binding": "I1_dept_5",
+      "class": "I1",
+      "note": "no bound source exists",
+      "correct": "non-empty sources",
+      "injected": "[]"
+    },
+    {
+      "binding": "I2_dept_5",
+      "class": "I2",
+      "note": "inputs/configs absent \u2014 cannot regenerate",
+      "correct": "config present",
+      "injected": "datasets/dept_5/config/forecast.yaml"
+    },
+    {
+      "binding": "X1_dept_5",
+      "class": "X1",
+      "note": "claim and data share the same upstream error \u2014 coherence intact",
+      "correct": "unknowable from inside",
+      "injected": "unknowable from inside"
+    },
+    {
+      "binding": "X2_dept_5",
+      "class": "X2",
+      "note": "drift hidden below tolerance (rounding)",
+      "correct": "exact value",
+      "injected": 1130.8101
+    },
+    {
+      "binding": "S3_dept_4",
+      "class": "S3",
+      "note": "universal quantifier contradicted by a group",
+      "correct": {
+        "travel": true,
+        "food": false,
+        "tools": false
+      },
+      "injected": "claims all fell"
+    },
+    {
+      "binding": "S3_dept_5",
+      "class": "S3",
+      "note": "universal quantifier contradicted by a group",
+      "correct": {
+        "travel": false,
+        "food": false,
+        "tools": false
+      },
+      "injected": "claims all fell"
+    }
+  ]
+}

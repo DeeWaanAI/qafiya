@@ -1,0 +1,48 @@
+{"model": "Qwen3.8-Flash", "scenario": "S1", "arm": "raw", "rep": 0, "error": "HTTP Error 403: Forbidden"}
+{"model": "Qwen3.8-Flash", "scenario": "S1", "arm": "raw", "rep": 1, "error": "HTTP Error 403: Forbidden"}
+{"model": "Qwen3.8-Flash", "scenario": "S1", "arm": "raw", "rep": 2, "error": "HTTP Error 403: Forbidden"}
+{"model": "Qwen3.8-Flash", "scenario": "S1", "arm": "qafiya", "rep": 0, "error": "HTTP Error 403: Forbidden"}
+{"model": "Qwen3.8-Flash", "scenario": "S1", "arm": "qafiya", "rep": 1, "error": "HTTP Error 403: Forbidden"}
+{"model": "Qwen3.8-Flash", "scenario": "S1", "arm": "qafiya", "rep": 2, "error": "HTTP Error 403: Forbidden"}
+{"model": "Qwen3.8-Flash", "scenario": "S2", "arm": "raw", "rep": 0, "error": "HTTP Error 403: Forbidden"}
+{"model": "Qwen3.8-Flash", "scenario": "S2", "arm": "raw", "rep": 1, "error": "HTTP Error 403: Forbidden"}
+{"model": "Qwen3.8-Flash", "scenario": "S2", "arm": "raw", "rep": 2, "error": "HTTP Error 403: Forbidden"}
+{"model": "Qwen3.8-Flash", "scenario": "S2", "arm": "qafiya", "rep": 0, "error": "HTTP Error 403: Forbidden"}
+{"model": "Qwen3.8-Flash", "scenario": "S2", "arm": "qafiya", "rep": 1, "error": "HTTP Error 403: Forbidden"}
+{"model": "Qwen3.8-Flash", "scenario": "S2", "arm": "qafiya", "rep": 2, "error": "HTTP Error 403: Forbidden"}
+{"model": "Llama-3.3-70B-Instruct-Turbo", "scenario": "S1", "arm": "raw", "rep": 0, "usage": {"prompt_tokens": 17002, "completion_tokens": 299, "total_tokens": 17301, "cached_tokens": 0}, "seconds": 17.09, "accuracy": {"total": false}, "deck_chars": 1172}
+{"model": "Llama-3.3-70B-Instruct-Turbo", "scenario": "S1", "arm": "raw", "rep": 1, "usage": {"prompt_tokens": 17002, "completion_tokens": 212, "total_tokens": 17214, "cached_tokens": 0}, "seconds": 9.1, "accuracy": {"total": false}, "deck_chars": 799}
+{"model": "Llama-3.3-70B-Instruct-Turbo", "scenario": "S1", "arm": "raw", "rep": 2, "usage": {"prompt_tokens": 17002, "completion_tokens": 212, "total_tokens": 17214, "cached_tokens": 16896}, "seconds": 3.8, "accuracy": {"total": false}, "deck_chars": 797}
+{"model": "Llama-3.3-70B-Instruct-Turbo", "scenario": "S1", "arm": "qafiya", "rep": 0, "usage": {"prompt_tokens": 21121, "completion_tokens": 358, "total_tokens": 21479, "cached_tokens": 0}, "seconds": 9.01, "accuracy": {"total": false}, "deck_chars": 1358}
+{"model": "Llama-3.3-70B-Instruct-Turbo", "scenario": "S1", "arm": "qafiya", "rep": 1, "usage": {"prompt_tokens": 21121, "completion_tokens": 382, "total_tokens": 21503, "cached_tokens": 0}, "seconds": 7.77, "accuracy": {"total": false}, "deck_chars": 1487}
+{"model": "Llama-3.3-70B-Instruct-Turbo", "scenario": "S1", "arm": "qafiya", "rep": 2, "usage": {"prompt_tokens": 21121, "completion_tokens": 368, "total_tokens": 21489, "cached_tokens": 20992}, "seconds": 5.62, "accuracy": {"total": false}, "deck_chars": 1422}
+{"model": "Llama-3.3-70B-Instruct-Turbo", "scenario": "S2", "arm": "raw", "rep": 0, "usage": {"prompt_tokens": 47886, "completion_tokens": 349, "total_tokens": 48235, "cached_tokens": 0}, "seconds": 12.3, "accuracy": {"travel_total": false}, "deck_chars": 1323}
+{"model": "Llama-3.3-70B-Instruct-Turbo", "scenario": "S2", "arm": "raw", "rep": 1, "usage": {"prompt_tokens": 47886, "completion_tokens": 301, "total_tokens": 48187, "cached_tokens": 0}, "seconds": 9.4, "accuracy": {"travel_total": false}, "deck_chars": 1008}
+{"model": "Llama-3.3-70B-Instruct-Turbo", "scenario": "S2", "arm": "raw", "rep": 2, "usage": {"prompt_tokens": 47886, "completion_tokens": 340, "total_tokens": 48226, "cached_tokens": 47872}, "seconds": 6.8, "accuracy": {"travel_total": false}, "deck_chars": 1271}
+{"model": "Llama-3.3-70B-Instruct-Turbo", "scenario": "S2", "arm": "qafiya", "rep": 0, "usage": {"prompt_tokens": 15002, "completion_tokens": 393, "total_tokens": 15395, "cached_tokens": 0}, "seconds": 10.51, "accuracy": {"travel_total": false}, "deck_chars": 1386}
+{"model": "Llama-3.3-70B-Instruct-Turbo", "scenario": "S2", "arm": "qafiya", "rep": 1, "usage": {"prompt_tokens": 15002, "completion_tokens": 400, "total_tokens": 15402, "cached_tokens": 14848}, "seconds": 6.64, "accuracy": {"travel_total": false}, "deck_chars": 1377}
+{"model": "Llama-3.3-70B-Instruct-Turbo", "scenario": "S2", "arm": "qafiya", "rep": 2, "usage": {"prompt_tokens": 15002, "completion_tokens": 440, "total_tokens": 15442, "cached_tokens": 0}, "seconds": 6.82, "accuracy": {"travel_total": false}, "deck_chars": 1625}
+{"model": "Qwen3.8-Flash", "scenario": "S1", "arm": "raw", "rep": 0, "error": "HTTP Error 403: Forbidden"}
+{"model": "Qwen3.8-Flash", "scenario": "S1", "arm": "raw", "rep": 1, "error": "HTTP Error 403: Forbidden"}
+{"model": "Qwen3.8-Flash", "scenario": "S1", "arm": "raw", "rep": 2, "error": "HTTP Error 403: Forbidden"}
+{"model": "Qwen3.8-Flash", "scenario": "S1", "arm": "qafiya", "rep": 0, "error": "HTTP Error 403: Forbidden"}
+{"model": "Qwen3.8-Flash", "scenario": "S1", "arm": "qafiya", "rep": 1, "error": "HTTP Error 403: Forbidden"}
+{"model": "Qwen3.8-Flash", "scenario": "S1", "arm": "qafiya", "rep": 2, "error": "HTTP Error 403: Forbidden"}
+{"model": "Qwen3.8-Flash", "scenario": "S2", "arm": "raw", "rep": 0, "error": "HTTP Error 403: Forbidden"}
+{"model": "Qwen3.8-Flash", "scenario": "S2", "arm": "raw", "rep": 1, "error": "HTTP Error 403: Forbidden"}
+{"model": "Qwen3.8-Flash", "scenario": "S2", "arm": "raw", "rep": 2, "error": "HTTP Error 403: Forbidden"}
+{"model": "Qwen3.8-Flash", "scenario": "S2", "arm": "qafiya", "rep": 0, "error": "HTTP Error 403: Forbidden"}
+{"model": "Qwen3.8-Flash", "scenario": "S2", "arm": "qafiya", "rep": 1, "error": "HTTP Error 403: Forbidden"}
+{"model": "Qwen3.8-Flash", "scenario": "S2", "arm": "qafiya", "rep": 2, "error": "HTTP Error 403: Forbidden"}
+{"model": "Qwen3.8-2.4T-A95B", "scenario": "S1", "arm": "qafiya", "rep": 0, "usage": {"prompt_tokens": 29250, "completion_tokens": 1556, "total_tokens": 30806, "prompt_tokens_details": {"cached_tokens": 29184}}, "accuracy": {"total": false}, "deck_chars": 3782}
+{"model": "Qwen3.8-2.4T-A95B", "scenario": "S1", "arm": "qafiya", "rep": 1, "usage": {"prompt_tokens": 29250, "completion_tokens": 1313, "total_tokens": 30563, "prompt_tokens_details": {"cached_tokens": 29184}}, "accuracy": {"total": false}, "deck_chars": 3381}
+{"model": "Qwen3.8-2.4T-A95B", "scenario": "S1", "arm": "qafiya", "rep": 2, "usage": {"prompt_tokens": 29250, "completion_tokens": 1597, "total_tokens": 30847, "prompt_tokens_details": {"cached_tokens": 29184}}, "accuracy": {"total": false}, "deck_chars": 3917}
+{"model": "Qwen3.8-2.4T-A95B", "scenario": "S1", "arm": "raw", "rep": 2, "usage": {"prompt_tokens": 23915, "completion_tokens": 1145, "total_tokens": 25060, "prompt_tokens_details": {"cached_tokens": 0}}, "accuracy": {"total": false}, "deck_chars": 2728}
+{"model": "Qwen3.8-2.4T-A95B", "scenario": "S2", "arm": "qafiya", "rep": 0, "usage": {"prompt_tokens": 20810, "completion_tokens": 1636, "total_tokens": 22446, "prompt_tokens_details": {"cached_tokens": 20736}}, "accuracy": {"travel_total": false}, "deck_chars": 4057}
+{"model": "Qwen3.8-2.4T-A95B", "scenario": "S2", "arm": "qafiya", "rep": 1, "usage": {"prompt_tokens": 20810, "completion_tokens": 1356, "total_tokens": 22166, "prompt_tokens_details": {"cached_tokens": 20736}}, "accuracy": {"travel_total": false}, "deck_chars": 3395}
+{"model": "Qwen3.8-2.4T-A95B", "scenario": "S2", "arm": "qafiya", "rep": 2, "usage": {"prompt_tokens": 20810, "completion_tokens": 1490, "total_tokens": 22300, "prompt_tokens_details": {"cached_tokens": 20736}}, "accuracy": {"travel_total": false}, "deck_chars": 3834}
+{"model": "Qwen3.8-2.4T-A95B", "scenario": "S2", "arm": "raw", "rep": 0, "usage": {"prompt_tokens": 67432, "completion_tokens": 1204, "total_tokens": 68636, "prompt_tokens_details": {"cached_tokens": 0}}, "accuracy": {"travel_total": false}, "deck_chars": 3212}
+{"model": "Qwen3.8-2.4T-A95B", "scenario": "S2", "arm": "raw", "rep": 1, "usage": {"prompt_tokens": 67432, "completion_tokens": 915, "total_tokens": 68347, "prompt_tokens_details": {"cached_tokens": 67328}}, "accuracy": {"travel_total": false}, "deck_chars": 2238}
+{"model": "Qwen3.8-2.4T-A95B", "scenario": "S2", "arm": "raw", "rep": 2, "usage": {"prompt_tokens": 67432, "completion_tokens": 918, "total_tokens": 68350, "prompt_tokens_details": {"cached_tokens": 67328}}, "accuracy": {"travel_total": false}, "deck_chars": 2225}
+{"model": "Qwen3.8-2.4T-A95B", "scenario": "S1", "arm": "raw", "rep": 0, "usage": {"prompt_tokens": 23915, "completion_tokens": 1127, "total_tokens": 25042, "prompt_tokens_details": {"cached_tokens": 23808}}, "accuracy": {"total": false}, "deck_chars": 2648}
+{"model": "Qwen3.8-2.4T-A95B", "scenario": "S1", "arm": "raw", "rep": 1, "usage": {"prompt_tokens": 23915, "completion_tokens": 1128, "total_tokens": 25043, "prompt_tokens_details": {"cached_tokens": 23808}}, "accuracy": {"total": false}, "deck_chars": 2701}

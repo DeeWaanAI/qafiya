@@ -1,0 +1,19 @@
+{
+ "request": {
+  "model": "Qwen/Qwen3.8-2.4T-A95B",
+  "temperature": 0,
+  "reasoning": {
+   "enabled": false
+  },
+  "max_tokens": 8000
+ },
+ "usage": {
+  "prompt_tokens": 20810,
+  "completion_tokens": 1356,
+  "total_tokens": 22166,
+  "prompt_tokens_details": {
+   "cached_tokens": 20736
+  }
+ },
+ "deck": "# Travel Expense Summary Deck\n\n---\n\n## Slide 1 — Title\n\n# ✈️ FY 2026 Travel Expense Review\n**Category Filter:** `travel` · **Period:** Jan 1 – Sep 28, 2026\n**Source:** 6 consolidated datasets · **Records analysed:** 400 transactions\n**Prepared from:** Structured expense ledger (JSONL with provenance bindings)\n\n---\n\n## Slide 2 — Key Totals\n\n| Metric | Value |\n|---|---|\n| **Total Travel Spend** | **$187,878.47** |\n| **Number of Transactions** | 400 |\n| **Average per Transaction** | $469.70 |\n| **Median Transaction** | ≈ $470 |\n| **Largest Single Expense** | $896.61 (Hooli, 2026-04-13) |\n| **Smallest Single Expense** | $4.86 (Umbrella, 2026-02-27) |\n| **Active Vendors** | 8 (Acme, Stark, Globex, Hooli, Initech, Soylent, Wayne, Umbrella) |\n| **Months Covered** | 9 (Jan – Sep 2026) |\n\n---\n\n## Slide 3 — Trend vs. Prior Period (H1 vs. Q3)\n\n| Period | Months | Spend | Txns | Avg / Txn |\n|---|---|---|---|---|\n| **H1 2026** (Jan–Jun) | 6 | **$124,694.49** | 264 | $472.33 |\n| **Q3 2026** (Jul–Sep) | 3 | **$63,183.98** | 136 | $464.59 |\n\n- **Q3 monthly run-rate:** $21,061 / mo vs. **H1 monthly run-rate:** $20,782 / mo → **+1.3 %** acceleration.\n- Average ticket size dipped slightly (−1.6 %), indicating **more frequent, smaller trips** in Q3.\n- No single month exceeded $22 k; spend is broadly **flat with a mild upward drift** into Q3.\n\n> ⚠️ If Q4 continues at the Q3 run-rate, full-year travel spend will land near **≈ $251 k**.\n\n---\n\n## Slide 4 — Top Categories (by Vendor)\n\n| Rank | Vendor | Total Spend | Txns | Avg / Txn | % of Total |\n|---|---|---|---|---|---|\n| 1 | **Stark** | $28,498.49 | 62 | $459.65 | 15.2 % |\n| 2 | **Acme** | $26,498.44 | 56 | $473.19 | 14.1 % |\n| 3 | **Globex** | $25,498.37 | 55 | $463.61 | 13.6 % |\n| 4 | **Hooli** | $24,498.28 | 53 | $462.23 | 13.0 % |\n| 5 | **Initech** | $23,498.19 | 50 | $469.96 | 12.5 % |\n| 6 | **Soylent** | $22,498.10 | 48 | $468.71 | 12.0 % |\n| 7 | **Wayne** | $21,498.02 | 44 | $488.59 | 11.4 % |\n| 8 | **Umbrella** | $15,390.58 | 32 | $480.96 | 8.2 % |\n\n**Key observations**\n- Spend is **evenly distributed**; no single vendor exceeds 15.2 % share.\n- **Wayne** carries the highest average ticket ($488.59) despite ranking 7th in volume.\n- **Umbrella** has the fewest transactions (32) but a high per-trip cost ($480.96).\n\n---\n\n## Slide 5 — Recommendations\n\n1. **Negotiate volume discounts with top-3 vendors (Stark, Acme, Globex).**\n   Combined they represent **42.9 %** of travel spend (~$80.5 k). A 10 % negotiated saving would recover ≈ **$8 k annually**.\n\n2. **Audit high-average-ticket vendors (Wayne, Umbrella).**\n   Both exceed the portfolio average of $469.70 per trip. Require pre-approval for Wayne/Umbrella bookings above $500 to curb outlier expenses.\n\n3. **Set a Q4 monthly cap of $20,000.**\n   Q3's run-rate of ~$21 k/mo projects a full-year total near $251 k. A $20 k cap keeps FY 2026 under **$248 k** (≈ 1.2 % saving).\n\n4. **Consolidate booking channels.**\n   8 vendors across 400 transactions suggests fragmented procurement. Funneling bookings through 2–3 preferred partners improves tracking and leverage.\n\n5. **Flag micro-transactions (< $20) for policy review.**\n   7 transactions fall below $20 (e.g., $4.86, $6.61, $7.68). Automate or eliminate these to reduce processing overhead.\n\n---\n*All figures derived exclusively from the 400 filtered `category = travel` records provided. No external data used.*"
+}

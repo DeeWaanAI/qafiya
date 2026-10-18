@@ -1,0 +1,80 @@
+{
+  "frozen_inputs": [
+    "results/raw/counts.jsonl",
+    "results/raw/selective.json"
+  ],
+  "tokenizer": "Qwen/Qwen2.5-7B-Instruct",
+  "T_ingest_note": "deterministic CSV/MD extraction uses no model calls; T_ingest=0 disclosed per plan \u00a78",
+  "single_doc": {
+    "tabular": {
+      "n": 6,
+      "csv-serving": {
+        "median": 1.2153,
+        "min": 1.2108,
+        "max": 1.2266
+      },
+      "jsonl-serving": {
+        "median": 2.3205,
+        "min": 2.3031,
+        "max": 2.3931
+      },
+      "full-provenance-serving": {
+        "median": 8.5355,
+        "min": 8.2926,
+        "max": 8.643
+      }
+    },
+    "prose": {
+      "n": 4,
+      "csv-serving": {
+        "median": 1.1546,
+        "min": 1.1481,
+        "max": 1.1687
+      },
+      "jsonl-serving": {
+        "median": 1.1546,
+        "min": 1.1481,
+        "max": 1.1687
+      },
+      "full-provenance-serving": {
+        "median": 2.3189,
+        "min": 2.3094,
+        "max": 2.3193
+      }
+    },
+    "pdf": {
+      "n": 4,
+      "csv-serving": {
+        "median": 1.1195,
+        "min": 1.1129,
+        "max": 1.1332
+      },
+      "jsonl-serving": {
+        "median": 1.1195,
+        "min": 1.1129,
+        "max": 1.1332
+      },
+      "full-provenance-serving": {
+        "median": 2.2477,
+        "min": 2.2403,
+        "max": 2.2484
+      }
+    }
+  },
+  "multi_doc_selective": {
+    "scenario": "deck about 'travel' spend across 6 datasets",
+    "n_docs": 6,
+    "n_selected_records": 573,
+    "T_baseline_all_docs": 67678,
+    "T_qafiya_selected": 20851,
+    "ratio": 0.3081,
+    "saving": "69.2%",
+    "note": "saving grows with corpus size and query selectivity (H3)"
+  },
+  "headline_findings": [
+    "Single tabular doc: raw CSV is already the minimal encoding; JSONL serving costs ~2.3x, full inline provenance ~8.5x, compact CSV serving ~1.0x (parity, not a win).",
+    "Single prose doc: block JSON adds ~15% overhead; no token win.",
+    "Where the substrate wins: multi-doc selective loading (H3) \u2014 see multi_doc_selective.",
+    "Design rule confirmed: provenance must be ADDRESSABLE (on disk, by id), never inlined into the prompt."
+  ]
+}

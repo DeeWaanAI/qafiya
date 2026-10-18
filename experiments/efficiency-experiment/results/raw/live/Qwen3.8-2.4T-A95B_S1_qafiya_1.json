@@ -1,0 +1,19 @@
+{
+ "request": {
+  "model": "Qwen/Qwen3.8-2.4T-A95B",
+  "temperature": 0,
+  "reasoning": {
+   "enabled": false
+  },
+  "max_tokens": 8000
+ },
+ "usage": {
+  "prompt_tokens": 29250,
+  "completion_tokens": 1313,
+  "total_tokens": 30563,
+  "prompt_tokens_details": {
+   "cached_tokens": 29184
+  }
+ },
+ "deck": "# Slide 1 — Title\n\n## 📊 Expense Summary Report — FY 2026\n**Dataset:** `expenses_large` · 800 transactions · Jan 1 – Sep 28, 2026\n**Source:** `source/expenses_large.csv` (SHA-256: `41b437de…c38b`)\n**Categories:** travel · tools · food · other | **Vendors:** Acme, Globex, Hooli, Initech, Soylent, Stark, Umbrella, Wayne\n\n---\n\n# Slide 2 — Key Totals\n\n| Metric | Value |\n|---|---|\n| **Total Spend** | **$361,878.49** |\n| **Transaction Count** | **800** |\n| **Average per Transaction** | **$452.35** |\n| **Median Transaction** | **$452.48** |\n| **Min / Max Transaction** | **$4.86** / **$898.75** |\n\n**By Category (count → spend):**\n\n| Category | Txns | Total $ | Avg $ |\n|---|---|---|---|\n| Travel | 200 | $91,498.49 | $457.49 |\n| Tools | 200 | $89,498.49 | $447.49 |\n| Food | 200 | $90,498.49 | $452.49 |\n| Other | 200 | $90,383.02 | $451.92 |\n\n> Spend is remarkably even across all four categories (each ≈ 25 %).\n\n---\n\n# Slide 3 — Trend vs. Prior Period\n\n**H1 (Jan–Jun) vs. H2 (Jul–Sep, partial):**\n\n| Period | Txns | Total $ | Avg $/txn |\n|---|---|---|---|\n| H1 (Jan – Jun) | 534 | $241,543.21 | $452.33 |\n| H2 (Jul – Sep) | 266 | $120,335.28 | $452.39 |\n\n- **Monthly run-rate H1:** ≈ $40,257 / month\n- **Monthly run-rate H2:** ≈ $40,112 / month\n- **Δ run-rate:** **−0.4 %** → spending is essentially **flat** period-over-period.\n\n**Quarterly view:**\n\n| Quarter | Total $ | Txns |\n|---|---|---|\n| Q1 (Jan–Mar) | $121,204.87 | 268 |\n| Q2 (Apr–Jun) | $120,338.34 | 266 |\n| Q3 (Jul–Sep) | $120,335.28 | 266 |\n\n> Quarter-over-quarter change is < 1 %, confirming a **stable, predictable** spend pattern with no seasonal spike.\n\n---\n\n# Slide 4 — Top Categories & Vendors\n\n**Category ranking by total spend:**\n\n| Rank | Category | Total $ | Share |\n|---|---|---|---|\n| 1 | 🛫 Travel | $91,498 | 25.3 % |\n| 2 | 🍽️ Food | $90,498 | 25.0 % |\n| 3 | 📦 Other | $90,383 | 25.0 % |\n| 4 | 🔧 Tools | $89,498 | 24.7 % |\n\n**Top 3 Vendors by total spend:**\n\n| Rank | Vendor | Total $ | Txns |\n|---|---|---|---|\n| 1 | **Stark** | ≈ $47,200 | 100 |\n| 2 | **Acme** | ≈ $46,800 | 100 |\n| 3 | **Globex** | ≈ $46,500 | 100 |\n\n> No single category or vendor dominates; spend is **uniformly distributed** across all four categories and eight vendors, indicating broad, diversified purchasing.\n\n---\n\n# Slide 5 — Recommendations\n\n1. **Maintain current budget cadence.** The flat quarter-over-quarter trend (Δ < 1 %) shows disciplined spend control; no emergency intervention is needed.\n\n2. **Negotiate volume discounts with top vendors.** Stark, Acme, and Globex each account for ≈ 13 % of total spend (~$46–47 K). Consolidating contracts could yield 5–10 % savings (~$7–14 K annually).\n\n3. **Audit the \"Other\" category.** At $90.4 K (25 % of spend) with no sub-classification, \"Other\" is the largest area of **low visibility**. Re-categorising these 200 transactions would improve reporting granularity.\n\n4. **Set per-transaction guardrails.** The range spans $4.86 – $898.75. Introducing a soft approval threshold at **$750** (≈ 90th percentile) would flag only ~10 % of transactions while covering outsized items.\n\n5. **Plan Q4 with the established run-rate.** Project Q4 spend at **≈ $40,200/month** (≈ $120,600 for the quarter) based on the consistent H1/H2 pattern, and allocate contingency for any year-end travel surge.\n\n---\n*All figures derived exclusively from the 800 records in `expenses_large.csv`.*"
+}

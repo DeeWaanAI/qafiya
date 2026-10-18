@@ -1,0 +1,108 @@
+{
+  "seed": 20261015,
+  "frozen": "2026-10-15",
+  "docs": [
+    {
+      "stratum": "tabular",
+      "file": "tabular/expenses_small.csv",
+      "size_param": 50,
+      "bytes": 1946,
+      "sha256": "c7af93c0052ec2e083803cdca0c5b44cfa15b8dc866c018a49ea6239d023830c"
+    },
+    {
+      "stratum": "tabular",
+      "file": "tabular/expenses_medium.csv",
+      "size_param": 200,
+      "bytes": 7735,
+      "sha256": "696bfab8a31d1c17937a1c02860a7b3daa65a8aa612542a648b32e578cb7ab15"
+    },
+    {
+      "stratum": "tabular",
+      "file": "tabular/expenses_large.csv",
+      "size_param": 800,
+      "bytes": 30961,
+      "sha256": "ebc762f9c45a2d88b591c2d5cf0c3ff2e9ac4aa75719589f8b23de94f039500d"
+    },
+    {
+      "stratum": "tabular",
+      "file": "tabular/invoices_small.csv",
+      "size_param": 60,
+      "bytes": 2351,
+      "sha256": "6580360aabb4760cafd5010db35cc0019b56506ad65d09a99e786af5ce82491c"
+    },
+    {
+      "stratum": "tabular",
+      "file": "tabular/invoices_medium.csv",
+      "size_param": 250,
+      "bytes": 9694,
+      "sha256": "2fac47576aeb4ea845c7c059866510db9d1bd667e50c1b22696d42644b338560"
+    },
+    {
+      "stratum": "tabular",
+      "file": "tabular/invoices_large.csv",
+      "size_param": 900,
+      "bytes": 34808,
+      "sha256": "f8dd022e7e2b5529a9cad74635fdc81b7bc16fefebfd5fe780bb4cd2ca5ddc37"
+    },
+    {
+      "stratum": "prose",
+      "file": "prose/report_quarterly.md",
+      "size_param": 800,
+      "bytes": 5197,
+      "sha256": "19be76ef4e5e7fd22945f01b521aabd661a13111c668f91479ac40032f85b802"
+    },
+    {
+      "stratum": "prose",
+      "file": "prose/report_vendor.md",
+      "size_param": 1500,
+      "bytes": 9442,
+      "sha256": "51ed020c8a1500c1c5e71877131ac092a2d3907017d1043afd511b9d700a41e0"
+    },
+    {
+      "stratum": "prose",
+      "file": "prose/report_travel.md",
+      "size_param": 2500,
+      "bytes": 15334,
+      "sha256": "a1d110f2414377379152975bfce14fa2efa278f85522787c96af1d2590562821"
+    },
+    {
+      "stratum": "prose",
+      "file": "prose/report_budget.md",
+      "size_param": 4000,
+      "bytes": 24006,
+      "sha256": "bd6252b59687d468ef5e0ed272d0ad3e00cf9f542e4eb128763e374a35d7ad9e"
+    },
+    {
+      "stratum": "pdf",
+      "file": "pdf/report_budget.pdf",
+      "size_param": 24006,
+      "bytes": 7646,
+      "sha256": "2b23ac1920a16e80377d1e128b64e396f04be263fbdd05c975f77c5b21d7cbd2",
+      "rendered_from": "prose/report_budget.md"
+    },
+    {
+      "stratum": "pdf",
+      "file": "pdf/report_quarterly.pdf",
+      "size_param": 5197,
+      "bytes": 2748,
+      "sha256": "8f2ec68dcd6b7839fd12529774f96a78df2e1b2143f524695049f0b337ca3760",
+      "rendered_from": "prose/report_quarterly.md"
+    },
+    {
+      "stratum": "pdf",
+      "file": "pdf/report_travel.pdf",
+      "size_param": 15334,
+      "bytes": 5329,
+      "sha256": "8e3590f7bbc79213b6e361ca212f9cd4e582d48b08e52bde7006d82e6ae20245",
+      "rendered_from": "prose/report_travel.md"
+    },
+    {
+      "stratum": "pdf",
+      "file": "pdf/report_vendor.pdf",
+      "size_param": 9442,
+      "bytes": 3909,
+      "sha256": "376fbd51dc5ce2d0bf54c7fe8ab84fe079b1dc2d7a3b28b3d09e99869a2e667e",
+      "rendered_from": "prose/report_vendor.md"
+    }
+  ]
+}

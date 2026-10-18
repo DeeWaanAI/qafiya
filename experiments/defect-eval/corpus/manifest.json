@@ -1,0 +1,37 @@
+{
+  "seed": 20261015,
+  "frozen": "2026-10-15",
+  "datasets": [
+    {
+      "dataset": "dept_0",
+      "records": 25,
+      "sha256": "df17fb8373962c9ce630c5abe373e8243e1b6d0ba35b9c7fe95d874f03ebb0e4"
+    },
+    {
+      "dataset": "dept_1",
+      "records": 27,
+      "sha256": "4e273ea49949dfdbc2d6d5fb84d2448b88d90e2a220db4b4c6962399824f2c86"
+    },
+    {
+      "dataset": "dept_2",
+      "records": 29,
+      "sha256": "5a2708cc929f02abcdd84b2e79db680f3e424e231324adcfc7fa1374ca10541b"
+    },
+    {
+      "dataset": "dept_3",
+      "records": 31,
+      "sha256": "476cfd9a8a5dab13cbfc12cd2fc177c9d685a34bf6843a4a949ae8be70f0ae3a"
+    },
+    {
+      "dataset": "dept_4",
+      "records": 24,
+      "sha256": "18d8c6f01ccc8f6cc19258b96b45c6ae61b1af64a8980e2c3cee12ec153dfa41"
+    },
+    {
+      "dataset": "dept_5",
+      "records": 25,
+      "sha256": "1a6ff596328c45351b6a24449f8987bdfde3778af44cb050b5e678043fc0407c"
+    }
+  ],
+  "n_clean_claims": 24
+}

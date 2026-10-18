@@ -1,0 +1,368 @@
+{"arm": "A_full", "binding": "c_dir_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "c_val_travel_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "c_val_q3_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "c_scope_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "c_dir_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "c_val_travel_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "c_val_q3_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "c_scope_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "c_dir_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "c_val_travel_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "c_val_q3_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "c_scope_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "c_dir_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "c_val_travel_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "c_val_q3_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "c_scope_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "c_dir_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "c_val_travel_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "c_val_q3_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "c_scope_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "c_dir_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "c_val_travel_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "c_val_q3_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "c_scope_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "N1_dept_0", "state": "FAIL", "flagged": true, "detail": "recompute=1942.21 != value=2660.83"}
+{"arm": "A_full", "binding": "N2_dept_0", "state": "FAIL", "flagged": true, "detail": "quarantined source: datasets/dept_0/archive/data_v1.jsonl"}
+{"arm": "A_full", "binding": "N3_dept_0", "state": "FAIL", "flagged": true, "detail": "recompute=1174.13 != value=4805.64"}
+{"arm": "A_full", "binding": "S1_dept_0", "state": "FLAG", "flagged": true, "detail": "recompute shows -23.5%, claim says +23.5%"}
+{"arm": "A_full", "binding": "S2_dept_0", "state": "FLAG", "flagged": true, "detail": "statement says ['travel'] but data filter reads ['food']"}
+{"arm": "A_full", "binding": "S4_dept_0", "state": "FAIL", "flagged": true, "detail": "phantom analysis: datasets/dept_0/analysis/seasonality.json does not exist"}
+{"arm": "A_full", "binding": "S5_dept_0", "state": "FLAG", "flagged": true, "detail": "analysis a_anomaly status is 'exploratory', not confirmed"}
+{"arm": "A_full", "binding": "I1_dept_0", "state": "FLAG", "flagged": true, "detail": "I1 unverifiable: no bound source"}
+{"arm": "A_full", "binding": "I2_dept_0", "state": "FAIL", "flagged": true, "detail": "nothing to regenerate: datasets/dept_0/config/forecast.yaml missing"}
+{"arm": "A_full", "binding": "X1_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "X2_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "N1_dept_1", "state": "FAIL", "flagged": true, "detail": "recompute=1781.2 != value=2440.24"}
+{"arm": "A_full", "binding": "N2_dept_1", "state": "FAIL", "flagged": true, "detail": "quarantined source: datasets/dept_1/archive/data_v1.jsonl"}
+{"arm": "A_full", "binding": "N3_dept_1", "state": "FAIL", "flagged": true, "detail": "recompute=1153.6000000000001 != value=4886.44"}
+{"arm": "A_full", "binding": "S1_dept_1", "state": "FLAG", "flagged": true, "detail": "recompute shows -17.6%, claim says +17.6%"}
+{"arm": "A_full", "binding": "S2_dept_1", "state": "FLAG", "flagged": true, "detail": "statement says ['travel'] but data filter reads ['food']"}
+{"arm": "A_full", "binding": "S4_dept_1", "state": "FAIL", "flagged": true, "detail": "phantom analysis: datasets/dept_1/analysis/seasonality.json does not exist"}
+{"arm": "A_full", "binding": "S5_dept_1", "state": "FLAG", "flagged": true, "detail": "analysis a_forecast status is 'failed_gate', not confirmed"}
+{"arm": "A_full", "binding": "I1_dept_1", "state": "FLAG", "flagged": true, "detail": "I1 unverifiable: no bound source"}
+{"arm": "A_full", "binding": "I2_dept_1", "state": "FAIL", "flagged": true, "detail": "nothing to regenerate: datasets/dept_1/config/forecast.yaml missing"}
+{"arm": "A_full", "binding": "X1_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "X2_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "N1_dept_2", "state": "FAIL", "flagged": true, "detail": "recompute=2724.44 != value=3732.48"}
+{"arm": "A_full", "binding": "N2_dept_2", "state": "FAIL", "flagged": true, "detail": "quarantined source: datasets/dept_2/archive/data_v1.jsonl"}
+{"arm": "A_full", "binding": "N3_dept_2", "state": "FAIL", "flagged": true, "detail": "recompute=2761.77 != value=6174.73"}
+{"arm": "A_full", "binding": "S1_dept_2", "state": "FLAG", "flagged": true, "detail": "recompute shows -11.1%, claim says +11.1%"}
+{"arm": "A_full", "binding": "S2_dept_2", "state": "FLAG", "flagged": true, "detail": "statement says ['travel'] but data filter reads ['food']"}
+{"arm": "A_full", "binding": "S4_dept_2", "state": "FAIL", "flagged": true, "detail": "phantom analysis: datasets/dept_2/analysis/seasonality.json does not exist"}
+{"arm": "A_full", "binding": "S5_dept_2", "state": "FLAG", "flagged": true, "detail": "analysis a_anomaly status is 'exploratory', not confirmed"}
+{"arm": "A_full", "binding": "I1_dept_2", "state": "FLAG", "flagged": true, "detail": "I1 unverifiable: no bound source"}
+{"arm": "A_full", "binding": "I2_dept_2", "state": "FAIL", "flagged": true, "detail": "nothing to regenerate: datasets/dept_2/config/forecast.yaml missing"}
+{"arm": "A_full", "binding": "X1_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "X2_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "N1_dept_3", "state": "FAIL", "flagged": true, "detail": "recompute=3016.94 != value=4133.21"}
+{"arm": "A_full", "binding": "N2_dept_3", "state": "FAIL", "flagged": true, "detail": "quarantined source: datasets/dept_3/archive/data_v1.jsonl"}
+{"arm": "A_full", "binding": "N3_dept_3", "state": "FAIL", "flagged": true, "detail": "recompute=1522.3 != value=6673.6"}
+{"arm": "A_full", "binding": "S1_dept_3", "state": "FLAG", "flagged": true, "detail": "recompute shows -49.1%, claim says +49.0%"}
+{"arm": "A_full", "binding": "S2_dept_3", "state": "FLAG", "flagged": true, "detail": "statement says ['travel'] but data filter reads ['food']"}
+{"arm": "A_full", "binding": "S4_dept_3", "state": "FAIL", "flagged": true, "detail": "phantom analysis: datasets/dept_3/analysis/seasonality.json does not exist"}
+{"arm": "A_full", "binding": "S5_dept_3", "state": "FLAG", "flagged": true, "detail": "analysis a_forecast status is 'failed_gate', not confirmed"}
+{"arm": "A_full", "binding": "I1_dept_3", "state": "FLAG", "flagged": true, "detail": "I1 unverifiable: no bound source"}
+{"arm": "A_full", "binding": "I2_dept_3", "state": "FAIL", "flagged": true, "detail": "nothing to regenerate: datasets/dept_3/config/forecast.yaml missing"}
+{"arm": "A_full", "binding": "X1_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "X2_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "N1_dept_4", "state": "FAIL", "flagged": true, "detail": "recompute=2003.56 != value=2744.88"}
+{"arm": "A_full", "binding": "N2_dept_4", "state": "FAIL", "flagged": true, "detail": "quarantined source: datasets/dept_4/archive/data_v1.jsonl"}
+{"arm": "A_full", "binding": "N3_dept_4", "state": "FAIL", "flagged": true, "detail": "recompute=974.46 != value=3890.44"}
+{"arm": "A_full", "binding": "S1_dept_4", "state": "FLAG", "flagged": true, "detail": "recompute shows -68.1%, claim says +68.1%"}
+{"arm": "A_full", "binding": "S2_dept_4", "state": "FLAG", "flagged": true, "detail": "statement says ['travel'] but data filter reads ['food']"}
+{"arm": "A_full", "binding": "S4_dept_4", "state": "FAIL", "flagged": true, "detail": "phantom analysis: datasets/dept_4/analysis/seasonality.json does not exist"}
+{"arm": "A_full", "binding": "S5_dept_4", "state": "FLAG", "flagged": true, "detail": "analysis a_anomaly status is 'exploratory', not confirmed"}
+{"arm": "A_full", "binding": "I1_dept_4", "state": "FLAG", "flagged": true, "detail": "I1 unverifiable: no bound source"}
+{"arm": "A_full", "binding": "I2_dept_4", "state": "FAIL", "flagged": true, "detail": "nothing to regenerate: datasets/dept_4/config/forecast.yaml missing"}
+{"arm": "A_full", "binding": "X1_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "X2_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "N1_dept_5", "state": "FAIL", "flagged": true, "detail": "recompute=3203.59 != value=4388.92"}
+{"arm": "A_full", "binding": "N2_dept_5", "state": "FAIL", "flagged": true, "detail": "quarantined source: datasets/dept_5/archive/data_v1.jsonl"}
+{"arm": "A_full", "binding": "N3_dept_5", "state": "FAIL", "flagged": true, "detail": "recompute=1130.81 != value=4987.45"}
+{"arm": "A_full", "binding": "S1_dept_5", "state": "FLAG", "flagged": true, "detail": "recompute shows +135.0%, claim says -135.0%"}
+{"arm": "A_full", "binding": "S2_dept_5", "state": "FLAG", "flagged": true, "detail": "statement says ['travel'] but data filter reads ['food']"}
+{"arm": "A_full", "binding": "S4_dept_5", "state": "FAIL", "flagged": true, "detail": "phantom analysis: datasets/dept_5/analysis/seasonality.json does not exist"}
+{"arm": "A_full", "binding": "S5_dept_5", "state": "FLAG", "flagged": true, "detail": "analysis a_forecast status is 'failed_gate', not confirmed"}
+{"arm": "A_full", "binding": "I1_dept_5", "state": "FLAG", "flagged": true, "detail": "I1 unverifiable: no bound source"}
+{"arm": "A_full", "binding": "I2_dept_5", "state": "FAIL", "flagged": true, "detail": "nothing to regenerate: datasets/dept_5/config/forecast.yaml missing"}
+{"arm": "A_full", "binding": "X1_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "X2_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "A_full", "binding": "S3_dept_4", "state": "FLAG", "flagged": true, "detail": "claim says 'all fell' but ['food', 'tools'] did not"}
+{"arm": "A_full", "binding": "S3_dept_5", "state": "FLAG", "flagged": true, "detail": "claim says 'all fell' but ['travel', 'food', 'tools'] did not"}
+{"arm": "B_layer1_only", "binding": "c_dir_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "c_val_travel_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "c_val_q3_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "c_scope_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "c_dir_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "c_val_travel_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "c_val_q3_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "c_scope_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "c_dir_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "c_val_travel_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "c_val_q3_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "c_scope_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "c_dir_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "c_val_travel_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "c_val_q3_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "c_scope_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "c_dir_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "c_val_travel_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "c_val_q3_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "c_scope_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "c_dir_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "c_val_travel_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "c_val_q3_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "c_scope_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "N1_dept_0", "state": "FAIL", "flagged": true, "detail": "recompute=1942.21 != value=2660.83"}
+{"arm": "B_layer1_only", "binding": "N2_dept_0", "state": "FAIL", "flagged": true, "detail": "quarantined source: datasets/dept_0/archive/data_v1.jsonl"}
+{"arm": "B_layer1_only", "binding": "N3_dept_0", "state": "FAIL", "flagged": true, "detail": "recompute=1174.13 != value=4805.64"}
+{"arm": "B_layer1_only", "binding": "S1_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "S2_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "S4_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "S5_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "I1_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "I2_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "X1_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "X2_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "N1_dept_1", "state": "FAIL", "flagged": true, "detail": "recompute=1781.2 != value=2440.24"}
+{"arm": "B_layer1_only", "binding": "N2_dept_1", "state": "FAIL", "flagged": true, "detail": "quarantined source: datasets/dept_1/archive/data_v1.jsonl"}
+{"arm": "B_layer1_only", "binding": "N3_dept_1", "state": "FAIL", "flagged": true, "detail": "recompute=1153.6000000000001 != value=4886.44"}
+{"arm": "B_layer1_only", "binding": "S1_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "S2_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "S4_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "S5_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "I1_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "I2_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "X1_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "X2_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "N1_dept_2", "state": "FAIL", "flagged": true, "detail": "recompute=2724.44 != value=3732.48"}
+{"arm": "B_layer1_only", "binding": "N2_dept_2", "state": "FAIL", "flagged": true, "detail": "quarantined source: datasets/dept_2/archive/data_v1.jsonl"}
+{"arm": "B_layer1_only", "binding": "N3_dept_2", "state": "FAIL", "flagged": true, "detail": "recompute=2761.77 != value=6174.73"}
+{"arm": "B_layer1_only", "binding": "S1_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "S2_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "S4_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "S5_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "I1_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "I2_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "X1_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "X2_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "N1_dept_3", "state": "FAIL", "flagged": true, "detail": "recompute=3016.94 != value=4133.21"}
+{"arm": "B_layer1_only", "binding": "N2_dept_3", "state": "FAIL", "flagged": true, "detail": "quarantined source: datasets/dept_3/archive/data_v1.jsonl"}
+{"arm": "B_layer1_only", "binding": "N3_dept_3", "state": "FAIL", "flagged": true, "detail": "recompute=1522.3 != value=6673.6"}
+{"arm": "B_layer1_only", "binding": "S1_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "S2_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "S4_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "S5_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "I1_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "I2_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "X1_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "X2_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "N1_dept_4", "state": "FAIL", "flagged": true, "detail": "recompute=2003.56 != value=2744.88"}
+{"arm": "B_layer1_only", "binding": "N2_dept_4", "state": "FAIL", "flagged": true, "detail": "quarantined source: datasets/dept_4/archive/data_v1.jsonl"}
+{"arm": "B_layer1_only", "binding": "N3_dept_4", "state": "FAIL", "flagged": true, "detail": "recompute=974.46 != value=3890.44"}
+{"arm": "B_layer1_only", "binding": "S1_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "S2_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "S4_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "S5_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "I1_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "I2_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "X1_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "X2_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "N1_dept_5", "state": "FAIL", "flagged": true, "detail": "recompute=3203.59 != value=4388.92"}
+{"arm": "B_layer1_only", "binding": "N2_dept_5", "state": "FAIL", "flagged": true, "detail": "quarantined source: datasets/dept_5/archive/data_v1.jsonl"}
+{"arm": "B_layer1_only", "binding": "N3_dept_5", "state": "FAIL", "flagged": true, "detail": "recompute=1130.81 != value=4987.45"}
+{"arm": "B_layer1_only", "binding": "S1_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "S2_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "S4_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "S5_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "I1_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "I2_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "X1_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "X2_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "S3_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "B_layer1_only", "binding": "S3_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_dir_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_val_travel_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_val_q3_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_scope_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_dir_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_val_travel_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_val_q3_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_scope_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_dir_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_val_travel_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_val_q3_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_scope_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_dir_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_val_travel_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_val_q3_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_scope_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_dir_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_val_travel_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_val_q3_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_scope_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_dir_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_val_travel_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_val_q3_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "c_scope_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "N1_dept_0", "state": "FLAG", "flagged": true, "detail": "statement value disagrees with expected field"}
+{"arm": "D_internal_only", "binding": "N2_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "N3_dept_0", "state": "FLAG", "flagged": true, "detail": "statement value disagrees with expected field"}
+{"arm": "D_internal_only", "binding": "S1_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "S2_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "S4_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "S5_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "I1_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "I2_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "X1_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "X2_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "N1_dept_1", "state": "FLAG", "flagged": true, "detail": "statement value disagrees with expected field"}
+{"arm": "D_internal_only", "binding": "N2_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "N3_dept_1", "state": "FLAG", "flagged": true, "detail": "statement value disagrees with expected field"}
+{"arm": "D_internal_only", "binding": "S1_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "S2_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "S4_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "S5_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "I1_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "I2_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "X1_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "X2_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "N1_dept_2", "state": "FLAG", "flagged": true, "detail": "statement value disagrees with expected field"}
+{"arm": "D_internal_only", "binding": "N2_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "N3_dept_2", "state": "FLAG", "flagged": true, "detail": "statement value disagrees with expected field"}
+{"arm": "D_internal_only", "binding": "S1_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "S2_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "S4_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "S5_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "I1_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "I2_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "X1_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "X2_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "N1_dept_3", "state": "FLAG", "flagged": true, "detail": "statement value disagrees with expected field"}
+{"arm": "D_internal_only", "binding": "N2_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "N3_dept_3", "state": "FLAG", "flagged": true, "detail": "statement value disagrees with expected field"}
+{"arm": "D_internal_only", "binding": "S1_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "S2_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "S4_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "S5_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "I1_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "I2_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "X1_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "X2_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "N1_dept_4", "state": "FLAG", "flagged": true, "detail": "statement value disagrees with expected field"}
+{"arm": "D_internal_only", "binding": "N2_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "N3_dept_4", "state": "FLAG", "flagged": true, "detail": "statement value disagrees with expected field"}
+{"arm": "D_internal_only", "binding": "S1_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "S2_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "S4_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "S5_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "I1_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "I2_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "X1_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "X2_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "N1_dept_5", "state": "FLAG", "flagged": true, "detail": "statement value disagrees with expected field"}
+{"arm": "D_internal_only", "binding": "N2_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "N3_dept_5", "state": "FLAG", "flagged": true, "detail": "statement value disagrees with expected field"}
+{"arm": "D_internal_only", "binding": "S1_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "S2_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "S4_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "S5_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "I1_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "I2_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "X1_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "X2_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "S3_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "D_internal_only", "binding": "S3_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_dir_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_val_travel_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_val_q3_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_scope_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_dir_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_val_travel_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_val_q3_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_scope_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_dir_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_val_travel_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_val_q3_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_scope_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_dir_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_val_travel_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_val_q3_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_scope_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_dir_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_val_travel_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_val_q3_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_scope_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_dir_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_val_travel_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_val_q3_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "c_scope_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "N1_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "N2_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "N3_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S1_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S2_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S4_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S5_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "I1_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "I2_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "X1_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "X2_dept_0", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "N1_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "N2_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "N3_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S1_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S2_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S4_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S5_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "I1_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "I2_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "X1_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "X2_dept_1", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "N1_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "N2_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "N3_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S1_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S2_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S4_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S5_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "I1_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "I2_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "X1_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "X2_dept_2", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "N1_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "N2_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "N3_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S1_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S2_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S4_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S5_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "I1_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "I2_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "X1_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "X2_dept_3", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "N1_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "N2_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "N3_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S1_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S2_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S4_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S5_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "I1_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "I2_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "X1_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "X2_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "N1_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "N2_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "N3_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S1_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S2_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S4_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S5_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "I1_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "I2_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "X1_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "X2_dept_5", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S3_dept_4", "state": "PASS", "flagged": false, "detail": ""}
+{"arm": "F_none", "binding": "S3_dept_5", "state": "PASS", "flagged": false, "detail": ""}

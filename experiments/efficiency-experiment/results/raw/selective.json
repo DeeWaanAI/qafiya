@@ -1,0 +1,10 @@
+{
+  "scenario": "deck about 'travel' spend across 6 datasets",
+  "n_docs": 6,
+  "n_selected_records": 573,
+  "T_baseline_all_docs": 67678,
+  "T_qafiya_selected": 20851,
+  "ratio": 0.3081,
+  "saving": "69.2%",
+  "note": "saving grows with corpus size and query selectivity (H3)"
+}

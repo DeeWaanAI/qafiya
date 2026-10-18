@@ -1,0 +1,19 @@
+{
+ "request": {
+  "model": "Qwen/Qwen3.8-2.4T-A95B",
+  "temperature": 0,
+  "reasoning": {
+   "enabled": false
+  },
+  "max_tokens": 8000
+ },
+ "usage": {
+  "prompt_tokens": 67432,
+  "completion_tokens": 918,
+  "total_tokens": 68350,
+  "prompt_tokens_details": {
+   "cached_tokens": 67328
+  }
+ },
+ "deck": "# Travel Expense Summary Deck – FY 2026\n\n---\n\n## Slide 1 · Title\n\n**FY 2026 Travel Expense Review**\n*All figures drawn from 2,160 expense records (Jan – Sep 2026) across six ledgers.*\n*Scope: category = \"travel\" only.*\n\n---\n\n## Slide 2 · Key Totals\n\n| Metric | Value |\n|---|---|\n| Total travel spend (Jan–Sep 2026) | **$163,283.47** |\n| Number of travel transactions | **370** |\n| Average transaction | **$441.31** |\n| Largest single trip | **$895.40** (Soylent, 13 Aug) |\n| Smallest single trip | **$4.86** (Umbrella, 27 Feb) |\n| Travel as % of all spend | **≈ 21.4 %** |\n\n---\n\n## Slide 3 · Trend vs. Prior Period (H1 → H2)\n\n| Period | Travel Spend | Txns | Avg / Txn |\n|---|---|---|---|\n| **H1** (Jan – Jun) | $103,498.72 | 237 | $436.70 |\n| **H2** (Jul – Sep) | $59,784.75 | 133 | $449.51 |\n| **Δ H2 vs H1** | **−42.2 %** | −43.9 % | +2.9 % |\n\n> Travel volume dropped sharply in H2, yet per-trip cost ticked up ~$13, signalling fewer but slightly pricier trips.\n\n---\n\n## Slide 4 · Top Categories (by Vendor)\n\n| Rank | Vendor | Travel $ | Txns | Avg |\n|---|---|---|---|---|\n| 1 | **Acme** | $27,498.63 | 62 | $443.53 |\n| 2 | **Globex** | $26,498.47 | 60 | $441.64 |\n| 3 | **Stark** | $25,498.10 | 57 | $447.34 |\n| 4 | **Wayne** | $24,497.85 | 55 | $445.42 |\n| 5 | **Initech** | $22,498.22 | 51 | $441.14 |\n| 6 | **Hooli** | $19,498.05 | 44 | $443.14 |\n| 7 | **Soylent** | $17,294.15 | 41 | $421.81 |\n\n*Top 3 vendors (Acme, Globex, Stark) account for **48.4 %** of all travel dollars.*\n\n---\n\n## Slide 5 · Recommendation\n\n1. **Negotiate volume discounts with Acme, Globex & Stark** – together they represent nearly half of travel spend ($79,495.20); a 10 % negotiated reduction would save ≈ **$7,950 / year**.\n2. **Cap per-trip spend at $750** – 68 transactions (18.4 %) exceeded this threshold; capping would trim an estimated **$9,200** annually.\n3. **Investigate the H2 cost-per-trip rise (+2.9 %)** – while total volume fell 42 %, average ticket crept up; enforce advance-booking policies to reverse the trend.\n4. **Consolidate vendor panel** – seven vendors service travel; reducing to 3–4 preferred partners could yield an additional 5–8 % savings through leverage.\n\n*Prepared from raw ledger data; all figures in USD.*"
+}

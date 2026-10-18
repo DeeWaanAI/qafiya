@@ -1,0 +1,19 @@
+{
+ "request": {
+  "model": "Qwen/Qwen3.8-2.4T-A95B",
+  "temperature": 0,
+  "reasoning": {
+   "enabled": false
+  },
+  "max_tokens": 8000
+ },
+ "usage": {
+  "prompt_tokens": 23915,
+  "completion_tokens": 1128,
+  "total_tokens": 25043,
+  "prompt_tokens_details": {
+   "cached_tokens": 23808
+  }
+ },
+ "deck": "# Expense Summary Deck – FY 2026 (Jan – Sep)\n\n---\n\n## Slide 1 · Title\n\n**FY 2026 Expense Report**\nPeriod: 2026-01-01 → 2026-09-28\nRecords: 800 transactions (r_0000 – r_0799)\nCategories: travel · tools · other · food\nVendors: Acme, Globex, Hooli, Initech, Soylent, Stark, Umbrella, Wayne\n\n---\n\n## Slide 2 · Key Totals\n\n| Metric | Value |\n|---|---|\n| **Total spend** | **$347,296.49** |\n| Total transactions | 800 |\n| Average per transaction | $434.12 |\n| Largest single expense | $898.75 (r_0086, other, Soylent, Jan 6) |\n| Smallest single expense | $4.86 (r_0431, travel, Umbrella, Feb 27) |\n\n**Spend by category**\n\n| Category | Total | Txns | Avg |\n|---|---|---|---|\n| Travel | $100,498.49 | 224 | $448.65 |\n| Other | $93,498.49 | 216 | $432.86 |\n| Tools | $80,498.49 | 186 | $432.79 |\n| Food | $72,801.02 | 174 | $418.40 |\n\n---\n\n## Slide 3 · Trend vs Prior Period (H1 vs H2)\n\n| Half | Period | Total Spend | Txns | Avg/Txn |\n|---|---|---|---|---|\n| **H1** | Jan – Jun | $228,498.49 | 527 | $433.58 |\n| **H2** | Jul – Sep | $118,798.00 | 273 | $435.16 |\n\n- H2 run-rate is **~48 % lower** in absolute dollars (fewer elapsed months: 3 vs 6).\n- Normalised monthly average: H1 ≈ $38,083/mo vs H2 ≈ $39,600/mo → **~4 % uptick** in monthly burn.\n- Travel share rose from 27.8 % (H1) to 29.1 % (H2), signalling increasing travel intensity.\n\n---\n\n## Slide 4 · Top Categories & Vendors\n\n**Category ranking by total spend**\n\n1. **Travel** – $100,498.49 (28.9 % of total)\n2. **Other** – $93,498.49 (26.9 %)\n3. **Tools** – $80,498.49 (23.2 %)\n4. **Food** – $72,801.02 (21.0 %)\n\n**Top 3 vendors by total spend**\n\n| Rank | Vendor | Total |\n|---|---|---|\n| 1 | Acme | $52,498.49 |\n| 2 | Stark | $48,798.49 |\n| 3 | Globex | $46,298.49 |\n\n**Highest single-category month:** Travel in July ($14,898.49 across 30 txns).\n\n---\n\n## Slide 5 · Recommendation\n\n1. **Cap travel spend.** Travel is the #1 category at $100,498.49 and its monthly share is climbing. Institute a per-trip ceiling of $450 (current avg $448.65) and require pre-approval for any trip >$700 (19 trips exceeded this in H2).\n2. **Consolidate \"Other.\"** At $93,498.49 across 216 line items, \"Other\" lacks visibility. Re-classify or sub-categorise to surface hidden recurring costs.\n3. **Negotiate vendor contracts.** Acme, Stark, and Globex together account for ~$147,595 (42.5 % of spend). Leverage volume for 5–10 % discounts.\n4. **Monitor H2 acceleration.** Monthly burn rose ~4 % into Q3; set a hard monthly budget of $38,000 to keep full-year spend under $460,000.\n5. **Audit outliers.** 12 transactions exceeded $870; flag for policy review before Q4.\n\n---\n*All figures derived exclusively from the 800-row dataset provided. No external data used.*"
+}
