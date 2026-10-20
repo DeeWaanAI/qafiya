@@ -1,0 +1,4 @@
+You are given a raw document below. Produce a 5-slide summary deck in Markdown: (1) title, (2) key totals, (3) trend vs prior period, (4) top categories, (5) recommendation. Use only numbers present in the document.
+
+=== DOCUMENT ===
+{DOCUMENT}

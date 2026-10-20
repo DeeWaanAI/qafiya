@@ -1,0 +1,88 @@
+{
+  "models": [
+    "Qwen3.8-2.4T-A95B (reasoning disabled)",
+    "Llama-3.3-70B-Instruct-Turbo"
+  ],
+  "date": "2026-10-16",
+  "reps": 3,
+  "temperature": 0,
+  "note": "token counts from provider usage field (frozen per-call JSON in results/raw/live); Qwen parallel runs lack wall-clock; BOTH models failed ALL in-head aggregation checks in BOTH arms (0/12) \u2014 models cannot sum hundreds of rows; totals must come from computed bindings, which is the paper's core argument",
+  "per_config": {
+    "Llama-3.3-70B-Instruct-Turbo | S1 | qafiya": {
+      "prompt_tokens": 21121,
+      "completion_tokens_median": 368,
+      "accuracy": "0/3",
+      "seconds_median": 7.8
+    },
+    "Llama-3.3-70B-Instruct-Turbo | S1 | raw": {
+      "prompt_tokens": 17002,
+      "completion_tokens_median": 212,
+      "accuracy": "0/3",
+      "seconds_median": 9.1
+    },
+    "Llama-3.3-70B-Instruct-Turbo | S2 | qafiya": {
+      "prompt_tokens": 15002,
+      "completion_tokens_median": 400,
+      "accuracy": "0/3",
+      "seconds_median": 6.8
+    },
+    "Llama-3.3-70B-Instruct-Turbo | S2 | raw": {
+      "prompt_tokens": 47886,
+      "completion_tokens_median": 340,
+      "accuracy": "0/3",
+      "seconds_median": 9.4
+    },
+    "Qwen3.8-2.4T-A95B | S1 | qafiya": {
+      "prompt_tokens": 29250,
+      "completion_tokens_median": 1556,
+      "accuracy": "0/3",
+      "seconds_median": null
+    },
+    "Qwen3.8-2.4T-A95B | S1 | raw": {
+      "prompt_tokens": 23915,
+      "completion_tokens_median": 1128,
+      "accuracy": "0/3",
+      "seconds_median": null
+    },
+    "Qwen3.8-2.4T-A95B | S2 | qafiya": {
+      "prompt_tokens": 20810,
+      "completion_tokens_median": 1490,
+      "accuracy": "0/3",
+      "seconds_median": null
+    },
+    "Qwen3.8-2.4T-A95B | S2 | raw": {
+      "prompt_tokens": 67432,
+      "completion_tokens_median": 918,
+      "accuracy": "0/3",
+      "seconds_median": null
+    },
+    "Qwen3.8-Flash | S1 | qafiya": {
+      "prompt_tokens": [],
+      "completion_tokens_median": null,
+      "accuracy": "0/6",
+      "seconds_median": null
+    },
+    "Qwen3.8-Flash | S1 | raw": {
+      "prompt_tokens": [],
+      "completion_tokens_median": null,
+      "accuracy": "0/6",
+      "seconds_median": null
+    },
+    "Qwen3.8-Flash | S2 | qafiya": {
+      "prompt_tokens": [],
+      "completion_tokens_median": null,
+      "accuracy": "0/6",
+      "seconds_median": null
+    },
+    "Qwen3.8-Flash | S2 | raw": {
+      "prompt_tokens": [],
+      "completion_tokens_median": null,
+      "accuracy": "0/6",
+      "seconds_median": null
+    }
+  },
+  "S2_input_saving": {
+    "Qwen": 0.6914,
+    "Llama": 0.6867
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "frozen_inputs": [
+    "injection_manifest.json",
+    "results/raw/arm_results.jsonl"
+  ],
+  "corpus": {
+    "datasets": 6,
+    "clean_claims": 24,
+    "injected_defects": 68
+  },
+  "coverage": 0.9348,
+  "per_class_recall": {
+    "I1": {
+      "A_full": {
+        "recall": 1.0,
+        "caught": 6,
+        "injected": 6
+      },
+      "B_layer1_only": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      },
+      "D_internal_only": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      },
+      "F_none": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      }
+    },
+    "I2": {
+      "A_full": {
+        "recall": 1.0,
+        "caught": 6,
+        "injected": 6
+      },
+      "B_layer1_only": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      },
+      "D_internal_only": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      },
+      "F_none": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      }
+    },
+    "N1": {
+      "A_full": {
+        "recall": 1.0,
+        "caught": 6,
+        "injected": 6
+      },
+      "B_layer1_only": {
+        "recall": 1.0,
+        "caught": 6,
+        "injected": 6
+      },
+      "D_internal_only": {
+        "recall": 1.0,
+        "caught": 6,
+        "injected": 6
+      },
+      "F_none": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      }
+    },
+    "N2": {
+      "A_full": {
+        "recall": 1.0,
+        "caught": 6,
+        "injected": 6
+      },
+      "B_layer1_only": {
+        "recall": 1.0,
+        "caught": 6,
+        "injected": 6
+      },
+      "D_internal_only": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      },
+      "F_none": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      }
+    },
+    "N3": {
+      "A_full": {
+        "recall": 1.0,
+        "caught": 6,
+        "injected": 6
+      },
+      "B_layer1_only": {
+        "recall": 1.0,
+        "caught": 6,
+        "injected": 6
+      },
+      "D_internal_only": {
+        "recall": 1.0,
+        "caught": 6,
+        "injected": 6
+      },
+      "F_none": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      }
+    },
+    "S1": {
+      "A_full": {
+        "recall": 1.0,
+        "caught": 6,
+        "injected": 6
+      },
+      "B_layer1_only": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      },
+      "D_internal_only": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      },
+      "F_none": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      }
+    },
+    "S2": {
+      "A_full": {
+        "recall": 1.0,
+        "caught": 6,
+        "injected": 6
+      },
+      "B_layer1_only": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      },
+      "D_internal_only": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      },
+      "F_none": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      }
+    },
+    "S3": {
+      "A_full": {
+        "recall": 1.0,
+        "caught": 2,
+        "injected": 2
+      },
+      "B_layer1_only": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 2
+      },
+      "D_internal_only": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 2
+      },
+      "F_none": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 2
+      }
+    },
+    "S4": {
+      "A_full": {
+        "recall": 1.0,
+        "caught": 6,
+        "injected": 6
+      },
+      "B_layer1_only": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      },
+      "D_internal_only": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      },
+      "F_none": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      }
+    },
+    "S5": {
+      "A_full": {
+        "recall": 1.0,
+        "caught": 6,
+        "injected": 6
+      },
+      "B_layer1_only": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      },
+      "D_internal_only": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      },
+      "F_none": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      }
+    },
+    "X1": {
+      "A_full": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      },
+      "B_layer1_only": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      },
+      "D_internal_only": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      },
+      "F_none": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      }
+    },
+    "X2": {
+      "A_full": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      },
+      "B_layer1_only": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      },
+      "D_internal_only": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      },
+      "F_none": {
+        "recall": 0.0,
+        "caught": 0,
+        "injected": 6
+      }
+    }
+  },
+  "precision": {
+    "A_full": {
+      "true_catches": 56,
+      "false_positives": 0,
+      "precision": 1.0,
+      "fpr_on_clean": 0.0
+    },
+    "B_layer1_only": {
+      "true_catches": 18,
+      "false_positives": 0,
+      "precision": 1.0,
+      "fpr_on_clean": 0.0
+    },
+    "D_internal_only": {
+      "true_catches": 12,
+      "false_positives": 0,
+      "precision": 1.0,
+      "fpr_on_clean": 0.0
+    },
+    "F_none": {
+      "true_catches": 0,
+      "false_positives": 0,
+      "precision": null,
+      "fpr_on_clean": 0.0
+    }
+  },
+  "headline": {
+    "SC1_Layer1_N_class_recall": [
+      1.0,
+      1.0
+    ],
+    "SC2_A_vs_B_on_S_class": {
+      "S1": {
+        "A": 1.0,
+        "B": 0.0
+      },
+      "S2": {
+        "A": 1.0,
+        "B": 0.0
+      },
+      "S3": {
+        "A": 1.0,
+        "B": 0.0
+      },
+      "S4": {
+        "A": 1.0,
+        "B": 0.0
+      },
+      "S5": {
+        "A": 1.0,
+        "B": 0.0
+      }
+    },
+    "SC3_B_leaks_S_class": {
+      "S1": 0.0,
+      "S2": 0.0,
+      "S3": 0.0,
+      "S4": 0.0,
+      "S5": 0.0
+    },
+    "SC4_N2_quarantine_recall": 1.0,
+    "uncatchable_X1_X2_recall": {
+      "X1": 0.0,
+      "X2": 0.0
+    }
+  }
+}

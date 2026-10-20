@@ -9,7 +9,7 @@ No model, no dependencies — pure Python stdlib. This is the code behind the pa
 | Spec claim | Where |
 |---|---|
 | Closed, machine-recomputable derivation set (`sum/avg/count/min/max ... where`) — anything else is invalid by construction | `qafiya_core/derivations.py` |
-| Atomic write-back (temp → rename), prior state kept in `history.jsonl` | `qafiya_core/store.py`, `engine.apply_edit` |
+| Atomic write-back (temp → rename), prior state kept in a hash-chained, tamper-evident `history.jsonl` (v1.3) | `qafiya_core/store.py`, `engine.apply_edit`, `chain.py` |
 | Transitive invalidation: editing a record marks every dependent binding `PENDING` — stale-but-passing is impossible | `engine.invalidate` |
 | Layer 1 provenance gate: `value == eval(derivation, current data)`, quarantine via `SUPERSEDED.json`; binary exit 0/1 | `engine.provenance_gate` |
 | Re-render: views re-resolve values from data (the view stores no number); the claim's text is never touched | `engine.refresh_values` |

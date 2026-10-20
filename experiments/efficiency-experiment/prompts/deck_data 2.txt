@@ -1,0 +1,7 @@
+You are given a structured dataset (schema + records in JSONL, with provenance bindings) below. Produce a 5-slide summary deck in Markdown: (1) title, (2) key totals, (3) trend vs prior period, (4) top categories, (5) recommendation. Use only values derivable from the records.
+
+=== SCHEMA ===
+{SCHEMA}
+
+=== DATA ===
+{DATA}

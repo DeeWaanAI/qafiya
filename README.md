@@ -18,7 +18,7 @@ numbers, advisory flags for interpretations). "Trust me" becomes "re-run it your
 | `qafiya-extract/` | Importers (CSV/TSV, Markdown, text-PDF, DOCX) that turn documents into the Qafiya model, every value born with a provenance pointer to its source span. 12 tests. |
 | `experiments/defect-eval/` | Integrity track: frozen corpus, 68 labeled injected defects, 4 arms, self-verifying spine → every headline number in §6. |
 | `experiments/efficiency-experiment/` | Efficiency track: exact token accounting, selective-loading savings, frozen live-API runs → every number in §7. |
-| `spec/` | The normative specification (v1.1) and the v1.2 formula-audit extension note. |
+| `spec/` | The normative specification (v1.1), the v1.2 formula-audit extension note, and the v1.3 hash-chained-history delta (integrated in `qafiya_core.chain`). |
 
 ## Quickstart
 

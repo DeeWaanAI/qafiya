@@ -38,8 +38,10 @@ def atomic_write_jsonl(path: Path, rows):
 
 
 def append_history(ds_dir: Path, event: dict):
-    with open(ds_dir / HISTORY, "a") as f:
-        f.write(json.dumps(event, ensure_ascii=False) + "\n")
+    """v1.3: history entries are hash-chained (prev_hash/entry_hash).
+    Verify with qafiya_core.chain.verify(ds_dir / 'history.jsonl')."""
+    from . import chain
+    chain.append(ds_dir / HISTORY, event)
 
 
 def load_dataset(root: Path, name: str):

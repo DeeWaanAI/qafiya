@@ -1,0 +1,10 @@
+{
+  "superseded": [
+    "datasets/dept_0/archive/data_v1.jsonl",
+    "datasets/dept_1/archive/data_v1.jsonl",
+    "datasets/dept_2/archive/data_v1.jsonl",
+    "datasets/dept_3/archive/data_v1.jsonl",
+    "datasets/dept_4/archive/data_v1.jsonl",
+    "datasets/dept_5/archive/data_v1.jsonl"
+  ]
+}
