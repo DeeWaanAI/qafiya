@@ -1,0 +1,142 @@
+{
+  "frozen_inputs": [
+    "results/raw/live/runs.jsonl",
+    "results/raw/live/*.json",
+    "results/raw/reasoning_battery/*.json"
+  ],
+  "S2_input_saving": {
+    "Qwen3.8-2.4T-A95B": 0.6914,
+    "Llama-3.3-70B-Instruct-Turbo": 0.6867
+  },
+  "per_config": {
+    "Llama-3.3-70B-Instruct-Turbo|S1|qafiya": {
+      "reps": 3,
+      "prompt_tokens": 21121,
+      "cached_prompt_tokens": [
+        0,
+        0,
+        20992
+      ],
+      "accuracy_pass": 0
+    },
+    "Llama-3.3-70B-Instruct-Turbo|S1|raw": {
+      "reps": 3,
+      "prompt_tokens": 17002,
+      "cached_prompt_tokens": [
+        0,
+        0,
+        16896
+      ],
+      "accuracy_pass": 0
+    },
+    "Llama-3.3-70B-Instruct-Turbo|S2|qafiya": {
+      "reps": 3,
+      "prompt_tokens": 15002,
+      "cached_prompt_tokens": [
+        0,
+        14848,
+        0
+      ],
+      "accuracy_pass": 0
+    },
+    "Llama-3.3-70B-Instruct-Turbo|S2|raw": {
+      "reps": 3,
+      "prompt_tokens": 47886,
+      "cached_prompt_tokens": [
+        0,
+        0,
+        47872
+      ],
+      "accuracy_pass": 0
+    },
+    "Qwen3.8-2.4T-A95B|S1|qafiya": {
+      "reps": 3,
+      "prompt_tokens": 29250,
+      "cached_prompt_tokens": [
+        29184,
+        29184,
+        29184
+      ],
+      "accuracy_pass": 0
+    },
+    "Qwen3.8-2.4T-A95B|S1|raw": {
+      "reps": 3,
+      "prompt_tokens": 23915,
+      "cached_prompt_tokens": [
+        0,
+        23808,
+        23808
+      ],
+      "accuracy_pass": 0
+    },
+    "Qwen3.8-2.4T-A95B|S2|qafiya": {
+      "reps": 3,
+      "prompt_tokens": 20810,
+      "cached_prompt_tokens": [
+        20736,
+        20736,
+        20736
+      ],
+      "accuracy_pass": 0
+    },
+    "Qwen3.8-2.4T-A95B|S2|raw": {
+      "reps": 3,
+      "prompt_tokens": 67432,
+      "cached_prompt_tokens": [
+        0,
+        67328,
+        67328
+      ],
+      "accuracy_pass": 0
+    }
+  },
+  "reasoning_battery": {
+    "n_big_calls": 4,
+    "all_big_exhausted_budget_without_answer": true,
+    "note": "claim is scoped to exactly these frozen runs: 2 thinking-capable models \u00d7 2 calls on the large tabular S2-raw prompt, max_tokens=8000, reasoning enabled; both models answer the short control immediately (finish_reason=stop). Larger budgets untested.",
+    "calls": [
+      {
+        "file": "Qwen3.5-9B_big_0.json",
+        "model": "Qwen/Qwen3.5-9B",
+        "finish_reason": "length",
+        "completion_tokens": 8000,
+        "content_len": 0
+      },
+      {
+        "file": "Qwen3.5-9B_big_1.json",
+        "model": "Qwen/Qwen3.5-9B",
+        "finish_reason": "length",
+        "completion_tokens": 8000,
+        "content_len": 0
+      },
+      {
+        "file": "Qwen3.5-9B_short_control.json",
+        "model": "Qwen/Qwen3.5-9B",
+        "finish_reason": "stop",
+        "completion_tokens": 616,
+        "content_len": 50
+      },
+      {
+        "file": "Qwen3.8-2.4T-A95B_big_0.json",
+        "model": "Qwen/Qwen3.8-2.4T-A95B",
+        "finish_reason": "length",
+        "completion_tokens": 8000,
+        "content_len": 0
+      },
+      {
+        "file": "Qwen3.8-2.4T-A95B_big_1.json",
+        "model": "Qwen/Qwen3.8-2.4T-A95B",
+        "finish_reason": "length",
+        "completion_tokens": 8000,
+        "content_len": 0
+      },
+      {
+        "file": "Qwen3.8-2.4T-A95B_short_control.json",
+        "model": "Qwen/Qwen3.8-2.4T-A95B",
+        "finish_reason": "stop",
+        "completion_tokens": 88,
+        "content_len": 50
+      }
+    ]
+  }
+}
